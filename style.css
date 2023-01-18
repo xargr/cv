@@ -1,0 +1,91 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+html {
+    display: block;
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+:root {
+  --default-section-space: 3rem;
+  --primary-color: #222;
+  --subtle-color: #555;
+  --link-color: #1a73e8;
+}
+
+body {
+    width: 1260px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color:var(--link-color);
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+header span {
+    color: var(--subtle-color);
+}
+
+main {
+    margin-top: var(--default-section-space);
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    flex-basis: 75%;
+}
+
+.right {
+    flex-basis: 20%;
+}
+
+.debug {
+    background-color: red;
+}
+
+.section {
+    margin-bottom: calc(var(--default-section-space) - 1rem);
+}
+
+.section .position {
+    margin-bottom: calc(var(--default-section-space) - 1rem);
+}
+
+.section .title {
+    font-weight: 700;
+    margin-bottom: calc(var(--default-section-space) - 2.5rem);
+}
+
+.section .period {
+    color: var(--subtle-color);
+    margin-bottom: calc(var(--default-section-space) - 2.5rem);
+}
+
