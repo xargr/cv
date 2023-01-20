@@ -11,14 +11,16 @@ html {
 
 :root {
   --default-section-space: 3rem;
-  --primary-color: #222;
-  --subtle-color: #555;
+  --primary-color: rgba(32,14,50,1);
+  --subtle-color: rgba(107,114,128,1);
   --link-color: #1a73e8;
+  --bg-color: rgba(249,249,253,1);
 }
 
 body {
     width: 1260px;
     margin: auto;
+    background-color: var(--bg-color);
 }
 
 h1, h2 {
