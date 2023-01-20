@@ -89,3 +89,34 @@ main {
     margin-bottom: calc(var(--default-section-space) - 2.5rem);
 }
 
+.primary-text {
+    color: var(--primary-color);
+}
+
+.subtle-text {
+    color: var(--subtle-color);
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+
+.l3, .l4, .l5 {
+    background: var(--link-color);
+    display: block;
+    height: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.l3 {
+    width: 60%;
+}
+
+.l4 {
+    width: 80%;
+}
+
+.l5 {
+    width: 100%;
+}
